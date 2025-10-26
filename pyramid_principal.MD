@@ -27,16 +27,16 @@
   - If it's by commenting on an existing structure then we go with structure 
   - And if it's by categorizing then we go with the importance 
 
-🔷 **Main Message / Recommendation**
-   └─ 💡 **Key Line (summary of logic)**
-       ├─ 📌 Argument A  
-       │   ├─ Evidence A1  
-       │   └─ Evidence A2  
-       ├─ 📌 Argument B  
-       │   └─ Evidence B1  
-       └─ 📌 Argument C  
-           ├─ Evidence C1  
-           └─ Evidence C2
+**Main Message / Recommendation**
+- **Key Line (summary of logic)**
+  - Argument A  
+    - Evidence A1  
+    - Evidence A2  
+  - Argument B  
+    - Evidence B1  
+  - Argument C  
+    - Evidence C1  
+    - Evidence C2
 
 
 # Substructures within the pyramid
@@ -48,8 +48,8 @@
 - We continue to raise and answer questions, until we reach the point when the listener no longer has any questions, then we can leave the first leg and go back to the Key Line to keep answering other arguments
 - To ensure total reader attention, we need to refrain from raising any questions that you don't have the clear answer or from answering questions before raising them.
 - Example
-    ❌: We assumne that the customers prefer digital banks over traditional bank, that cost reduction is key and migration to cloud is feasible. Therefore, we recommend to replace the core in 24 months and develop a new digital banking app
-    ✅: We recommend replacing the core in 24 months and develop a new digital banking app because it could reduce cost in long term, improves compliance, enable new products and capture customers interest. This conclusion rests in 3 assumption:
+  - ❌: We assumne that the customers prefer digital banks over traditional bank, that cost reduction is key and migration to cloud is feasible. Therefore, we recommend to replace the core in 24 months and develop a new digital banking app
+  - ✅: We recommend replacing the core in 24 months and develop a new digital banking app because it could reduce cost in long term, improves compliance, enable new products and capture customers interest. This conclusion rests in 3 assumption:
     - Customers prefer digital bank over traditional
     - Legacy core maintenance costs exceed 10% of our budget
     - Cloud migration is feasible
@@ -107,12 +107,12 @@
   - The reader wants to know the answer before you answering it
   - Clear focus and logical flow
 - Example:
-  ❌: The purpose of this document is to pull together some ideas to address some problems of the current core banking system such as:
-  1. It's a legacy system that has served for 15 years
-  2. Its costs exceed IT budget by 10%
-  3. It usually results in downtimes that draws customers' complaints
-  4. Compliance issues with regulators
-  ✅: The bank’s current core system has operated for 15 years without modernization. It now exceeds the IT budget by 10%, experiences frequent downtime, and struggles to meet new regulatory requirements — all of which affect customer satisfaction. To address these issues, we recommend replacing it with a modern, cloud-native core that delivers high availability, lower maintenance cost, and full compliance with current standards.
+  - ❌: The purpose of this document is to pull together some ideas to address some problems of the current core banking system such as:
+    1. It's a legacy system that has served for 15 years
+    2. Its costs exceed IT budget by 10%
+    3. It usually results in downtimes that draws customers' complaints
+    4. Compliance issues with regulators
+  - ✅: The bank’s current core system has operated for 15 years without modernization. It now exceeds the IT budget by 10%, experiences frequent downtime, and struggles to meet new regulatory requirements — all of which affect customer satisfaction. To address these issues, we recommend replacing it with a modern, cloud-native core that delivers high availability, lower maintenance cost, and full compliance with current standards.
 - In the first example, we already answer a` question that has not been raised`: let's address the problem. What is the problem? Why are we addressing it already?
 - In the second example, we state the `problem` that everyone knows about (legacy core), then its `complication` (downtime, compliance...) which `raises a question` in reader's mind (ok how to address this) if they have not thought about it already, then we answer the question.
 - If the reader has `already had the question` (how to address these problems) then it seems `redundant` at first, but if the reader has not thought about question, then the first few sentences should `help raise it`.
@@ -127,7 +127,7 @@
 6. Recheck the Question and Answer: the statement of `Complication` should raise the same `question` that we decided in the step 2, if not then perhaps the `question` was wrong or our `Complication` was wrong, we have to change the `Complication` or think again
 - This entire process is to make sure we know the Question we want to answer, once we have the question, everything else falls into place
 - Example:
-  ❌: We have received the request to review the feasibility of processing Big Chief's Delivery ticket via disk in to our National Accounts System. We have completed our review and here is our findings:
+  - ❌: We have received the request to review the feasibility of processing Big Chief's Delivery ticket via disk in to our National Accounts System. We have completed our review and here is our findings:
     - Big Chief needs to follow this format...
     - Big Chief will create a program that run against their new file to extract all tickets. The output file will be in a format accepted by our NA system.
     - Upon completion, the balanced cash disk will be processed through our NA system...
@@ -139,5 +139,4 @@
     4. What is the situation: Big Chief asks us to process a disk instead of thousand of tickets `(move the subject to the situation, this is a fact, easy to agree with)`
     5. What is the complication: They're asking is it possible (`make sure that this statement is aligned with the question from step 2`)
     6. Move to the next question: but why would we do that?
-    7. Answer to the next question: better cash flow, less work load, gives us the information we need
-    8. 
+    7. Answer to the next question with arguments: better cash flow, less work load, gives us the information we need
