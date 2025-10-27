@@ -140,3 +140,87 @@
     5. What is the complication: They're asking is it possible (`make sure that this statement is aligned with the question from step 2`)
     6. Move to the next question: but why would we do that?
     7. Answer to the next question with arguments: better cash flow, less work load, gives us the information we need
+## Bottom-up approach
+1. List out all points we want to make
+2. Try to find relationships between them
+3. Draw conclusion
+- Example: findings at the printing company about their process that point out that they're inefficient and not competitive
+  - Problems:
+    - Low productivity in composing
+    - Same steps for each job
+    - Uncompetitive for simple jobs
+    - Behind schedule
+    - Lower wages
+    - Shortage of people
+    - High overtime
+    - Below PAR
+  - Solutions:
+    - Simplify the process for cheap jobs
+    - Increase productivity by changing methods
+- Find the relationship, looks like there is some cause-and-effect relationships here:
+  - Lower wages
+  -> Shortage of people
+  -> Behind schedule
+  -> High overtime
+  -> High cost
+  - Same steps
+  -> Below PAR 
+  -> Low productivity
+  => everything leads to Uncompetitive price
+- Since we have all the ideas/findings and relationships, we can start to fit them into the model:
+  - Situation (what are the known facts): composition costs are the most important and Uncompetitive
+  - Questions: how to reduce composition costs and increase productivity
+  - Complications: 
+    - Shortage of good compositors, lower wages, high overtime, lower than PAR => can we hire better people, and retain our people? Yes
+    - Same steps for all process, increases price, lower than PAR => can we make this more efficient? Yes
+  - Key line (How do we solve this)
+    - Raise the wages to hire more people and retain the compositors we have
+    - Cut unnecessary steps to increase efficiency and reduce price.
+- Higher wages:
+  `why?`- Can hire more people
+    `why?`- Get more work done efficiently
+      `how?`- More experienced compositors
+      `how?`- Bigger workforce to share the work
+    `why?`- Retain people
+      `how?`- Less work per compositor
+      `how?`- No more overtime
+  `why?`- Help retain people
+    `how?`- People like to stay because the income is higher
+
+- Cut unncessary steps:
+  `why?`- Can reduce the amount of work
+    `how?`- All redundant steps are eliminated which reduces worker's time
+  `why?`- Can reduce prices for simple jobs
+    `how?`- With less time spending on these steps, we can reduce unncessary costs
+
+- Rewrite the findings:
+```
+After two weeks of analysis, I found that composition costs — currently accounting for 40–55% of total printing expenses — can be reduced by around 10% while improving our productivity and pricing competitiveness.
+We recommend two initiatives to achieve this:
+- Raise the wages of compositors to attract and retain skilled workers.
+- Eliminate redundant steps in the composition process to streamline production.
+
+1. Raise the wages of compositors
+Our current wages are lower than the market average, making it difficult to hire and retain experienced compositors. This shortage has led to undercapacity, excessive overtime, and, recently, the resignation of two staff members.
+By raising wages to a competitive level, we can:
+- Expand the workforce: Attract skilled compositors who work more efficiently, share the workload, and improve overall quality.
+- Retain existing staff: Reduce overtime and stress, leading to higher satisfaction and lower turnover.
+A stable, experienced team will improve both productivity and quality, helping us meet or exceed our PAR targets.
+
+1. Eliminate redundant steps in composition
+Our current process includes repeated checks designed to ensure quality. While effective, these repetitions add unnecessary time and cost, especially for simple jobs.
+By removing redundant steps where quality will not be compromised, we can:
+- Increase productivity: Reduce the time required per job and improve overall throughput.
+- Lower costs for simple jobs: Make our pricing more competitive in high-volume, low-margin work.
+A review team is already comparing the current process with a simplified one to measure the marginal difference. Early findings indicate that these changes could reduce composition costs by approximately 10% without affecting quality.
+
+In summary, raising wages and simplifying workflows will help us solve the capacity issue, improve productivity, and strengthen our price competitiveness.
+```
+
+# For beginners
+- Always try with `top-down` first 
+- Use the `Situation` as the starting point for thinking throught the introduction
+- Don't omit thinking through the introduction, if you know the `Question` of the `Situation`, then `ask it out loud` before moving to the `Key line` and answering the new `questions`
+- Always put `historical chronology` in the introduction, mention the time and place the situation happens because in the body, there are only logical ideas 
+- `Limit` the introduction to what the readers will `agree` is true
+- If possible, use `induction` over `deduction` to formulate arguments on the Key line level because it's less effort to comprehend, you state the conclusion and then begin to introduce supporting facts/arguments
