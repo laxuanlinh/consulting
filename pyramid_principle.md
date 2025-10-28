@@ -218,9 +218,45 @@ In summary, raising wages and simplifying workflows will help us solve the capac
 ```
 
 # For beginners
-- Always try with `top-down` first 
-- Use the `Situation` as the starting point for thinking throught the introduction
-- Don't omit thinking through the introduction, if you know the `Question` of the `Situation`, then `ask it out loud` before moving to the `Key line` and answering the new `questions`
-- Always put `historical chronology` in the introduction, mention the time and place the situation happens because in the body, there are only logical ideas 
-- `Limit` the introduction to what the readers will `agree` is true
-- If possible, use `induction` over `deduction` to formulate arguments on the Key line level because it's less effort to comprehend, you state the conclusion and then begin to introduce supporting facts/arguments
+1. Always try with `top-down` first 
+2. Use the `Situation` as the starting point for thinking throught the introduction
+3. Don't omit thinking through the introduction, if you know the `Question` of the `Situation`, then `ask it out loud` before moving to the `Key line` and answering the new `questions`
+4. Always put `historical chronology` in the introduction, mention the time and place the situation happens because in the body, there are only logical ideas 
+5. `Limit` the introduction to what the readers will `agree` is true
+6. If possible, use `induction` over `deduction` to formulate arguments on the Key line level because it's less effort to comprehend, you state the conclusion and then begin to introduce supporting facts/arguments
+
+## Where to start the Situation
+- If it's a memo, start with something that both you and reader already agree with
+- If it's report or publication, start with a generally accepted fact
+- The opening should be:
+  - Grounded in a specific `time` and `place`
+  - Facts that readers natually accept
+  - Lead readers to ask "yea, so what?" so that we can move to the `Complication`
+
+## What's a Complication
+- It's the "What's next?" after the `Situation` that creates tension to raise the `Question`
+- Not exactly a problem but more like the next challenge or obstacle that disrupts the resolve of `Situation`
+- Example:
+  - We have a task -> `Something stops us from doing it` -> What should we do?
+  - We have a problem -> `We know the possible solution` -> How to implement it?
+  - We have a problem -> `A solution has been suggested` -> Is it the right solution?
+  - We took an action -> `It didn't work` -> Why not? What do we do next?
+```
+S: Among all executive decisions, few are more difficult than choosing between capital investment options. 
+C: The challenge lies not in calculating returns, but in the assumptions—each uncertain on its own, and together creating critical risk. Current tools offer little help in evaluating this risk. 
+A: A better approach is to measure risk realistically at each potential return level, enabling executives to compare alternatives more confidently against corporate goals.
+```
+  - In this example, the Situation is "Choosing between capital investment options is the most difficult thing to do"
+  - `Complication`: No way to know the risk degree, current tools don't help either
+  - Question: Is there a way to assess risks?
+  - Answer: Yes
+## Why that order?
+- The order Situation - Complication - Question - Answer is important in the introduction
+- But rearranging the order of those elements can set the tone for the document:
+1. Standard S-C-Q-A: balanced and factual, present the context first and finally propose action
+2. Direct A-S-C: Action oriented, start with the action to show decisiveness 
+3. Concerned C-S-A: Cautious and critical, begin with the problem to convey urgency or dissatisfaction
+4. Aggressive Q-S-C-A: Challenging and persuasive, open with a question to provoke attention and drive action
+
+## Key Line
+- 
