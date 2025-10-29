@@ -259,4 +259,10 @@ A: A better approach is to measure risk realistically at each potential return l
 4. Aggressive Q-S-C-A: Challenging and persuasive, open with a question to provoke attention and drive action
 
 ## Key Line
-- 
+- Key line answers for the main question of the document 
+- It outlines the plan or structures the document
+- In long documents, list key lines points clearly at the start of the document with indents and centered, then use them as section headings. This helps the readers grasp the whole arguments within seconds and decide whether to keep reading
+- In short documents, use key line points as topic sentences, which is the main sentence of a paragraph instead of repeating them as headings
+- Each Key Line point should express an idea, not just a subject
+- Avoid generic sections like "Background" or "Introduction", they don't convey the message or logical structure
+- Listing out subjects without showing the connection between them weakens the arguments and confuses the readers
