@@ -266,3 +266,38 @@ A: A better approach is to measure risk realistically at each potential return l
 - Each Key Line point should express an idea, not just a subject
 - Avoid generic sections like "Background" or "Introduction", they don't convey the message or logical structure
 - Listing out subjects without showing the connection between them weakens the arguments and confuses the readers
+
+## How long a story?
+- Should be long enough so that we and the readers are standing in the same place before taking to arguments
+- Should be 2-3 paragraphs, ideally
+- Situation and Complication can be each 3-4 paragraphs but never more than that
+
+## Do I need to introduce the Key Line points?
+- Yes, and it should follow the same S-C-Q pattern although much more brief
+- Example:
+  - S: TQM was a hot management tool in the 80s for companies to cut costs, improve quality and competitiveness
+  - C: Many companies adopted it but few were successful
+  - Q: How were these companies successful while the others weren't
+  - The Key line: 
+    - Leaders are adding Benchmarking to judge the comparativeness 
+    - Activity-based Management to judge the real costs of services or products
+    - Focus TQM techniques that will make a difference
+- Use the heading that relfects the essense of the point, then introduce the point
+- Do not do this:
+```
+BENCHMARKING
+Leaders are using benchmarking to judge the comparativeness, effectiveness of their services. To do so, they ...
+```
+- Instead, do this:
+```
+BENCHMARKING PROCESS EFFICIENCY
+Suppose you have to put TQM to cut costs at your company in half. You'd assume that such reduction in costs would give your company the competitiveness but does it really? You can't tell until you compare it with the competition
+
+DETERMINING THE REAL COSTS
+Let's say you have already reached the top and become the best. Everybody else use you as the standard to compare their services and products. You're entitled to be proud of what you have achieved. But ask yourself one question, is what you're best at really worth doing? And you can't know the answer until you use Activity-based Management to measure by activity rather than by function
+```
+- Introductions are meant to `remind` and `not inform`, so include only facts that readers would agree already
+- Introductions always contain `3 elements` of a story: Situation, Complication and Solution
+- The length of the introduction depends on the need to introduce the readers to relevant information of the problem: background, context, your involvement, early investigations, ...
+- In a document, there is only `ONE question`, there can't be 2 or more because if the first question's answer is No, there won't be a second part, and if the first answer is Yes then it should be the main question itself, which in turns raises the question "How" (the second question)
+- 
