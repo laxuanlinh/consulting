@@ -225,6 +225,7 @@ In summary, raising wages and simplifying workflows will help us solve the capac
 5. `Limit` the introduction to what the readers will `agree` is true
 6. If possible, use `induction` over `deduction` to formulate arguments on the Key line level because it's less effort to comprehend, you state the conclusion and then begin to introduce supporting facts/arguments
 
+# Fine points of instroductions
 ## Where to start the Situation
 - If it's a memo, start with something that both you and reader already agree with
 - If it's report or publication, start with a generally accepted fact
@@ -300,4 +301,146 @@ Let's say you have already reached the top and become the best. Everybody else u
 - Introductions always contain `3 elements` of a story: Situation, Complication and Solution
 - The length of the introduction depends on the need to introduce the readers to relevant information of the problem: background, context, your involvement, early investigations, ...
 - In a document, there is only `ONE question`, there can't be 2 or more because if the first question's answer is No, there won't be a second part, and if the first answer is Yes then it should be the main question itself, which in turns raises the question "How" (the second question)
-- 
+
+# Some common patterns
+- Some very common questions we encounter when writing a document
+  - What should we do? (Giving direction)
+  - How should we do it? (Explaining how)
+  - Should we do it? (Seeking approval)
+  - Why did it happen?
+
+## Giving direction
+- Generally, a giving direction structure is like this:
+  - S: we want to do X
+  - C: but we need to do Y to do X
+  - Q: how do we do Y?
+## Seeking approval
+- A question that seeks approval:
+  - S: We have a problem
+  - C: We have a solution that costs $
+  - Q: Should we approve it? 
+- Example:
+```
+S: As you know, the work for our department has increased by 20% while we still keep the headcount of 14 people. As the result, overtime and weekend work has become common while our backlog is increased to 22 weeks.
+C: The field has deemed that 22 weeks is not acceptable and we cannot extend work hour any futher. Research has found that we can boost our productivity and reduce backlog by installing an IBM at a cost of ...$
+Q: (Should I approve it?)
+A: We strongly recommend you approve this purchase
+```
+- We can also support this answer with reasons:
+```
+- Resolution of the problem cannot wait 
+- This is the best solution we can find to resolve the problem
+- The cost will be offset by the projected saving
+- Other benefits of having an IBM
+```
+## Explaining how
+- Whenever there is a "How" question, the answer always contains of "steps"
+- Explaining how structure usually has 2 cases:
+- Doing something new:
+  - Must do X
+  - Don't know how to do X
+  - How to do it?
+- Improving something existing:
+  - Current system is X
+  - X is not working properly
+  - How to do it properly
+- To build Key line points, compare the existing system vs the ideal system. The difference is the Key line on how to get there.
+- We must lay out the current and the ideal process side by side before we write so that we don't miss any steps or think incorrectly.
+- The processes can be laid out in diagram, list or flow outline
+
+## Present the alternatives
+- Alternatives to a solution don't actually exist if the problem has been properly analyzed, however some times we still get the demand to provide the alternatives
+- The only time we have to write about alternatives is when the readers already know about them in advance.
+```
+S: As you know the recent ruling that 5-105HP motor is the most efficient for drilling has lead to our customers to switch our 10 HP motor for a 7 3/4 HP.
+C: We have 3 possible responses:
+  - Cut the price of our 10 HP to the 7 3/4 HP
+  - Reengineer the 7 1/2 HP to function similar to a 7 3/4 HP
+  - Design a new 5-105HP
+Q: which one makes most sense?
+```
+- We have 2 ways to structure the Key line on how we select 1 alternative over the others
+- Criteria: it's faster, it's cheaper, it's less risky... but other alternatives aren't always worse in all area, for that we need to present each pros and cons, and we can state the major reasons why we go with A and major reasons to drop B and C
+- But in some situation, it doesn't give the major reasons to choose one over the others, and so we can give the conditional answers: if you want X, can go with A, but if you want Y, the better option is B
+
+# Some common patterns - Consulting
+- Different from regular writings, longer and to drive actions
+- Focus on:
+  - What is the problem?
+  - Why does it matter?
+  - What should we do about it?
+- Less about facts and more about pursuading clients to take action
+## Letter of Proposal
+- Most important document of consulting, basically a sale pitch
+- The basic structure is:
+  - S: you have a problem
+  - C: you have decided to bring outside help
+  - Q: are we the right consultant for you
+- The answer is always "Yes", followed by the supporting arguments:
+  - We understand your problem
+  - We have a solid approach to solve it
+  - We have extensive experience implementing it
+  - Our commercial terms make sense
+- The tone depends on the type of client
+  - For new client, it should focus on explaining the problem in details and demonstrating expertise
+  - For existing client or a formal follow-up, the problem is summerized briefly and focus more on the solution
+- Administrative details like pricing or contracts usually go into a covering letter
+## Progress review
+- Formal update delivered to clients at the end of a project
+- First progress review structure:
+  - We have been working on X
+  - We said step 1 was to determine if Y is true, we've done that
+  - What did we find?
+- Later progress reviews structure:
+  - Previously, we told you X
+  - You told us to go investigate, we have completed that
+  - What did we find?
+  - Here is the result
+
+# Deduction and induction differences
+- A well-structured document is where:
+  - Above ideas summerize its below ideas
+  - Below ideas support the above ideas
+  - Peer ideas are arranged in a logical order
+- Logical orders follow 1 of the 2 reasoning patterns: Deductive and Inductive
+- Deductive is a sequence of statements that lead to a conclusion, each point depends on the previous one
+- Inductive is grouping of similar facts that leads to a generic statement, each point is independent but share common patterns between them
+## Deductive reasoning
+- Easy to think but hard to write
+- It follows these steps:
+  - Make a statement about a situation that exists in the world that is generally agreed
+  - Make another statement about a related situation that also exists. It's related to the subject or predicate of the first statement
+  - State the implication of these 2 existing in the world at the same time.
+- Example:
+  - Bird can fly
+  - I'm a bird
+  - Therefore I can fly
+- Sometimes deductive reasoning can be tedious if it overexplain a straightforward problem
+- On the `Key line` level, should avoid `deductive` and go with `inductive` instead because it's easier to remember all independent facts than ordered facts and their supporting arguments
+- Inductive isn't more powerful than deductive, they are both reasoning
+- At the late stage of an analysis when we have all the findings, conclusions and recommendations, we can have a Recommendation Worksheet.
+- We can reach the conclusions from findings using 3 reasoning patterns: Deduction, Induction and Abduction (making hypothesis and testing)
+- Once the analysis is complete, we can choose to present it either:
+  - Deductively: for clients who care more about analysis
+  - Inductively: for clients who care more about solutions
+- Example of when to do it inductively:
+  - Tell me how to cut costs?
+  - It's easy
+  - How?
+  - Here is how:
+    - Key line:
+      - Cut this 
+      - Buy that
+      - Raise prices
+- Example of when to do it deductively:
+  - Tell me how to cut costs?
+  - Forget about it, you should sell your business entirely
+  - What? Why? 
+  - Because:
+    - Key line:
+      - Your business is not making money and you keep borrowing
+      - Thus you are drowning in debt and it's too late to repay
+      - Therefore, selling is the best option
+- Deductive is only used at high level when readers fail to comprehend but it rarely happens
+- At high level, where sections in key line are separated, it's better to use Inductive
+- Deductive should be used at lower level
