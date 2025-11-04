@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="O1383tdsXS6ux4r_BGrp">
-    <mxGraphModel dx="2713" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2533" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,9 +82,6 @@
         </mxCell>
         <mxCell id="vH-cmR5Tv2OioWaU8fPn-17" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="690" width="430" height="330" as="geometry" />
-        </mxCell>
-        <mxCell id="vH-cmR5Tv2OioWaU8fPn-18" value="Core Banking System" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="950" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vH-cmR5Tv2OioWaU8fPn-19" value="Sandbox" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="700" width="60" height="30" as="geometry" />
@@ -369,6 +366,12 @@
         </mxCell>
         <mxCell id="vH-cmR5Tv2OioWaU8fPn-147" value="Things to consider" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="1430" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vH-cmR5Tv2OioWaU8fPn-148" value="Core Banking System&lt;br&gt;TM / 10x / Tuum" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="955" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vH-cmR5Tv2OioWaU8fPn-149" value="CMS&lt;div&gt;Smart Vista / Euronet&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="956" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

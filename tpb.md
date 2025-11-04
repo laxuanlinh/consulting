@@ -57,6 +57,14 @@ Key considerations:
 - Modify or build new backoffice apps to manage new core
 - Extra training for Accounting, teller, credit
 - KNowledge transfer to internal IT team to self-sustain
+# Partner management
+- Multi tenant model with Keycloak/Okta/Kong to manage access to API with AuthN/AuthZ
+- Shared database for customer and account data using CIF or stakeholder IDs to map to partner ID
+- Kong to manage rate limiter, pricing, logging and audit trail
+- Each partner own their own products with different parameters configurable, can be done via TM Smart Contracts, for Tuum and 10x, needs to manage product templates externally for each partner
+- Dedicated partner-service to manage partners' customer, account data
+- Shared integration layer and CBS
+- Sandbox environment with smaller VPC that has enough functionalities to test configuring products, onboard customers and create accounts
 
 
 # Phased migration
