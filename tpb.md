@@ -71,3 +71,76 @@ Key considerations:
 - MVP1 (12-18 months): build new digital bank with CASA/deposit and loan product, partner integration with sandbox and portal
 - MVP1.5 (12 months): coexistence, move more products to new core, migrate account and balances data with re-routing traffic from app to new core for certain products, deploy reused components to cloud with mirror sync, replace some components with new solutions (GL, reporting, ML)
 - MVP 2 (12 months): migrate all customer and product/accounts to new core. Deprecate the old core
+
+# Partner customer data management
+- Master customer data is stored in old core with CIF and ID card number as identifier
+- Each partner can enrich the customer data and store in the Customer service of their own cluster
+- The partner-specific data could be stored as document data in MongoDB/DynamoDB...
+- A Mapping service is needed to map a customer to multiple partners when they're onboarded to each app
+- Credit limit and credit scores are shared between all partners and stored in old core
+  
+# Partner account data management
+- All account master data is stored in new core, including account ID, balances, interest rate...
+- An Account service in the shared layer is needed to filter and limit access of each partner to their own account data, via partner ID or access control of the Core (Tuum)
+- Product specific behavior like interest accrual, billing, repayment, ... are done by the new core and the shared integration layer
+- Partners can only modify the parameters of offered products.
+- These parameters are stored in Partner-product service
+- Each partner has access to the kafka topic for their account updates (interst accrual, billing, repayment...)
+- Partner-specific services can be used to store partner-specific account data in their own clusters (customer, account, parameters...)
+- Partner-specific services can provide isolation and integration via API and webhook
+- All updates to an account have to go through shared services such as AML/Fraud, credit limit, credit score...
+
+# Partner Onboarding Steps
+## 1. Registration
+- Partner registers in onboarding portal.
+- Bank reviews and approves.
+- Bank creates identity in IDP and provides:
+  - Credentials
+  - Portal URL
+  - Sandbox API URL
+  - Production API URL (inactive until go-live)
+## 2. Product Setup
+- Partner logs into the Partner Portal (Sandbox).
+- Partner selects product templates:
+  - CASA
+  - Deposit
+  - Loan
+  - Card
+- Partner configures product parameters (fees, limits, etc.).
+- Configurations are stored in Partner-Product Service.
+## 3. Sandbox Testing
+- Partner integrates with Sandbox APIs.
+- Partner tests behaviors and lifecycle (Tuum doesn't support this)
+- Bank enforced controls (not customizable) eKYC, AML, Credit scoring / limits
+## 4. Optional Dedicated Cluster
+- Partner requests dedicated cluster if needed.
+- Bank reviews and approves.
+- Cluster is provisioned via CloudFormation.
+## 5. White-Label App
+- Partner receives white-label app configuration template.
+- Partner customizes logo, colors, text, feature flags.
+- Partner submits configuration.
+- CI/CD pipeline builds sandbox app.
+- Partner reviews and approves.
+- CI/CD pipeline builds production app and submits to app stores.
+## 6. Production Launch
+- Partner switches to production.
+- Partner Portal provides:
+  - User analytics
+  - Product and feature flag management
+  - Transaction monitoring (read-only)
+- Bank continues to handle regulatory and core ledger operations.
+
+# Customer Onboarding Journey
+- Customer selects **Register** in partner app.
+- ID photo is captured and sent to **Shared Layer → Old Core**.
+- Old Core performs OCR, checks existing customer (CIF), blacklist, AML, fraud, and credit score.
+- If approved, Old Core returns CIF to partner services.
+- Customer completes **liveness selfie** check (Shared Layer → Old Core → App).
+- Customer enters phone number; Old Core verifies uniqueness and sends OTP.
+- If verified → **Registration complete** (CIF active).
+
+- If product feature flags are enabled and customer opts in:
+  - Partner services evaluate eligibility based on risk/credit info.
+  - Partner services returns product offer with credit limits/interest rates...
+  - If customer consents → create account in **New Core** (and in **CMS** if a card is included).
