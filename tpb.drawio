@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="O1383tdsXS6ux4r_BGrp">
-    <mxGraphModel dx="3720" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5786" dy="2274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -583,6 +583,16 @@
         <mxCell id="5wibh37L4KgpqyUVU7Wy-102" value="Customer BPMN" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1381" y="2660" width="120" height="60" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;img src=&quot;https://www.plantuml.com/plantuml/png/XLF1Zjem4BtdA-PKWIh47Obg8PGMDIkYpQwg7aqyP4SrTkhOQVdxZaE8ueBA3JnlthptPlBKE66TFwd4aLC8Qo4AoFb9euMzFXXX9UaA9b-fUfzbsAAQ9adD02gf5jfTmUEtKMDkh1CgAgw5_hclc-XjjydlaURMI5-w0crB9KQ8GcXvC7zM-IvcIdVf9gSQ5UcuOLNNXJCMcoHPBk45AsgS5OwCXkKokLgUVReHl-Z1Q0Ul_qAuxMehe5l2ts6Ueh8RaFGrc36EhIuWjIWS3a7l96f7xZm06TVN5i0Xj2Gnz7GmeHhu26ylsSL9dn4Kw7pzq4fcAj8mwTER_XzSeCBI3HDUyLGhuR2vv__-ofWZP3uOJOq-KkKlkL_qzrAOlN5C63iOhtdHGGOr6HsnF9SAOGuxxR2waevQRXW-wwEn9R8Eja92yyy9VlkHpbVFsNnhXPVJJjI-3bniR8CoB14bfCg76uZqHLl_vLdURSDefz5nzejjUCx0FKcLyN9hxAdpSj7o_PqSpZ9nGCL7zNZ5XJ-So7NGjHKwbE03R54uRn6sIbJt5nYBUxLKLMXXxKd9uM02wpGP8--UAgFwHeux_EDteKQous4z0YyzD_J3bxlWT6jbpjSR2D5niKlfYu6CMdoOphFHn6Jmrg1jE9SLqxJXqqkUK4j_Kdy1&quot;&gt;" link="&lt;img src=&quot;https://www.plantuml.com/plantuml/png/XLF1Zjem4BtdA-PKWIh47Obg8PGMDIkYpQwg7aqyP4SrTkhOQVdxZaE8ueBA3JnlthptPlBKE66TFwd4aLC8Qo4AoFb9euMzFXXX9UaA9b-fUfzbsAAQ9adD02gf5jfTmUEtKMDkh1CgAgw5_hclc-XjjydlaURMI5-w0crB9KQ8GcXvC7zM-IvcIdVf9gSQ5UcuOLNNXJCMcoHPBk45AsgS5OwCXkKokLgUVReHl-Z1Q0Ul_qAuxMehe5l2ts6Ueh8RaFGrc36EhIuWjIWS3a7l96f7xZm06TVN5i0Xj2Gnz7GmeHhu26ylsSL9dn4Kw7pzq4fcAj8mwTER_XzSeCBI3HDUyLGhuR2vv__-ofWZP3uOJOq-KkKlkL_qzrAOlN5C63iOhtdHGGOr6HsnF9SAOGuxxR2waevQRXW-wwEn9R8Eja92yyy9VlkHpbVFsNnhXPVJJjI-3bniR8CoB14bfCg76uZqHLl_vLdURSDefz5nzejjUCx0FKcLyN9hxAdpSj7o_PqSpZ9nGCL7zNZ5XJ-So7NGjHKwbE03R54uRn6sIbJt5nYBUxLKLMXXxKd9uM02wpGP8--UAgFwHeux_EDteKQous4z0YyzD_J3bxlWT6jbpjSR2D5niKlfYu6CMdoOphFHn6Jmrg1jE9SLqxJXqqkUK4j_Kdy1&quot;&gt;" id="9wFe-_zaJm7EGN45YdJ--2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="1900" y="2120" width="30" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;img src=&quot;https://www.plantuml.com/plantuml/png/ZLJ1ZXen3BtdAtpS5LfnHwBQrRIhhWGT15NlsSJ3k6IIrF5GzU-RIT5eM43qXB3VytkExNbEebdwpYaXSGXLdoHqo53xzw3Paj_3mrVQjx328xf7fMB6aw6elOpebnZFuhjMCzgL_eDy5jze5e-yGpwImNIMgvsj0kDPx1l-leXLwvrIooLiSKz9M0i53ykbcdY1fqzJ2mlOeRVmzXbY6oIeIMf0deGNK5TRc47rzWekX4CVyv-NzMh-ohgtyofJIC2qQ0v9dJZmbFaVcbfaPzApBuLciALq0CRKEr7g0xJG9xuNiE5W42q4pbL-ef7IwegEw34bg0Rr_seseMi8RxOwLfp1gpO8Qosc7RkwiBKj_ekNJHiymWzaQiZSUlnHvuiNP8Y5CmF6NpqcWVhxvhPMJi9nMfwB-ENCgz15Xu9P_sQrCWHj9BTR2jHne6etFBJjZUG0-hpZ5prS6-l9VJnH7wW1zFhTeNsycEpq4ROeJ7X4C6M7vfnNOkwe8qdtDw9k6cGGv2wfUnP79cXZCERortoTZYgZ6RNWW0sz5vNZjtVwvHye7v5I8URV1enc2vI0l76zHQi00AxevOCTjGedScZ8OS7dv7N1Qa1Q54qkAVJsxl6C7kU5Qe9lY3lCnETC7xvmVm40&quot;&gt;" link="&lt;img src=&quot;https://www.plantuml.com/plantuml/png/ZLJ1ZXen3BtdAtpS5LfnHwBQrRIhhWGT15NlsSJ3k6IIrF5GzU-RIT5eM43qXB3VytkExNbEebdwpYaXSGXLdoHqo53xzw3Paj_3mrVQjx328xf7fMB6aw6elOpebnZFuhjMCzgL_eDy5jze5e-yGpwImNIMgvsj0kDPx1l-leXLwvrIooLiSKz9M0i53ykbcdY1fqzJ2mlOeRVmzXbY6oIeIMf0deGNK5TRc47rzWekX4CVyv-NzMh-ohgtyofJIC2qQ0v9dJZmbFaVcbfaPzApBuLciALq0CRKEr7g0xJG9xuNiE5W42q4pbL-ef7IwegEw34bg0Rr_seseMi8RxOwLfp1gpO8Qosc7RkwiBKj_ekNJHiymWzaQiZSUlnHvuiNP8Y5CmF6NpqcWVhxvhPMJi9nMfwB-ENCgz15Xu9P_sQrCWHj9BTR2jHne6etFBJjZUG0-hpZ5prS6-l9VJnH7wW1zFhTeNsycEpq4ROeJ7X4C6M7vfnNOkwe8qdtDw9k6cGGv2wfUnP79cXZCERortoTZYgZ6RNWW0sz5vNZjtVwvHye7v5I8URV1enc2vI0l76zHQi00AxevOCTjGedScZ8OS7dv7N1Qa1Q54qkAVJsxl6C7kU5Qe9lY3lCnETC7xvmVm40&quot;&gt;" id="9wFe-_zaJm7EGN45YdJ--3">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="3480" y="2130" width="30" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
