@@ -444,3 +444,34 @@ Q: which one makes most sense?
 - Deductive is only used at high level when readers fail to comprehend but it rarely happens
 - At high level, where sections in key line are separated, it's better to use Inductive
 - Deductive should be used at lower level
+
+## Inductive reasoning
+- Inductive reasoning is hard because it requires creativity
+- Observe several facts/events and find their patterns and draw a conclusion about what those patterns mean
+### How it works
+- Find 1 word that describes the grouping, it's always a plural noun
+- Check your reasoning by asking question from bottom up
+  - Example: If you see a man who found a Latin-spreaking city, dig deep in the earth to find new substances, can you refer that this man is an ingenious man but not a man of strong practical sense?
+### How to differ Inductive from Deductive
+- Very different, in deductive, the second point must comment on the predicate of the first
+- If not then it's not Deductive
+- Inductive is when points share similar predicate 
+- If there are no similarities, no inferance can be drawn then the points do not belong to the same group
+
+# Imposing logical order
+- The 2nd rule of Minto is that ideas should be logically grouped together, this is because the mind already recognizes the logical relationship
+- Time order: Causes and effect
+  - Cause 1
+  - Cause 2
+  - Cause 3
+  - => Effect
+- Structural order: divide a whole into parts
+  - Company 1
+  - Division A
+  - Division B
+  - Division C
+- Degree order: Classify like things
+  - Universal problems
+  - These 3 problems
+  - All other problems
+  - 
