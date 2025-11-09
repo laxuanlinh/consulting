@@ -144,3 +144,34 @@ Key considerations:
   - Partner services evaluate eligibility based on risk/credit info.
   - Partner services returns product offer with credit limits/interest rates...
   - If customer consents → create account in **New Core** (and in **CMS** if a card is included).
+
+# Transfer between 2 cores
+
+## Old Core to New Core
+- Old Core receives the transfer request
+- Old Core posts the payment in FCC
+- Old Core sends a transfer event to New Core via Kafka
+- New Core processes the event and returns a success response via Kafka
+
+## New Core to Old Core
+- New Core receives the transfer request
+- New Core posts internally and also sends a payment event to Old Core via Kafka
+- Old Core posts the payment in FCC and returns a Kafka success response
+- New Core also returns a Kafka success response
+
+## Inbound Transfer
+- SWIFT/NAPAS sends inbound transfer to FC Payment Hub
+- FC Payment Hub checks recipient account
+- If account belongs to Old Core → send to Old Core (FCC)
+- If account belongs to New Core → send to New Core via Kafka
+- New Core returns Kafka success to Payment Hub
+- Payment Hub returns success to SWIFT/NAPAS
+
+## Outbound Transfer
+- New Core receives outbound transfer request
+- New Core posts the payment and returns success
+- New Core sends outbound payment to FC Payment Hub
+- FC Payment Hub sends to SWIFT/NAPAS
+- SWIFT/NAPAS returns success
+- Payment Hub returns success to New Core
+

@@ -474,4 +474,86 @@ Q: which one makes most sense?
   - Universal problems
   - These 3 problems
   - All other problems
-  - 
+## Time order
+- Easiest to do because it follows the order of what to do first
+- Clarity could suffer if we can't distinguish between cause and effect
+- Large lists make it harder to follow
+  - Example: The following steps need to be taken in Phase 1:
+    1. Intervievv key management and supervisory personnel
+    2. Trace and document transactions and work flow
+    ...
+    8. Identify and justify potential opportunity areas for productivity improvement
+- Instead we can abstract these steps with higher steps
+  - Example:
+    1. Determine the critical functions
+    2. Identify weeknesses
+    3. Recommend practical ways
+- A quick way to avoid cause-effect mistake is to visualize yourself following these steps to see if they make sense
+- Recognizing your points are made from an underlying process helps clarify your message
+- Example: Business defi
+  - Relies on creative processes
+  - Changes over time
+  - Not necessarily unique
+  - Influenced by competitive strength
+- All of these belong to the same group and each one makes sense on their own, but they're mix of observation without any logic behind
+- Example: 
+  - Identify market segments
+  - Assess competitive position
+  - Track how your position change over time
+## Structural order
+- When divide a structure into smaller parts, make sure that these parts:
+  - Mutually exclusive
+  - Collectively exhaustive
+- Example:
+  - Akron tire and rubber company
+    - Tire division
+    - Housewares Division
+    - Sports equipment division
+- Mutually exclusive means that whatever in Tire division is not in Housewares division, aka no overlaps
+- Collectively exhaustive means the combination of all 3 divisions covers everything in Akron company
+- There are 3 ways to divide an organization
+  1. By the activities
+  2. By locations
+  3. By products and market segments
+- When already have a structure, we can start analyzing it, from top to bottom or from left to right
+- We can use concept of structural order to sort out faulty logic in groupings
+- Example: an executive argument on why a drink company should not produce its own plastic bottles
+  - Technical risks - design problem
+  - Environmental risks - ban on nonreturnable bottles
+  - Premium risks - consumer rejection of premium packges during an inflatory period
+  - Capital intensiveness
+  - Negative Earning per Share
+  - Near term R&D
+  - Cashflow problem
+  ...
+- These can be abstracted with a higher grouping:
+  - Regulatory
+  - Low earning per share
+  - Low Return of investment
+- So it can be rewritten like so:
+  - We should think carefully about going into plastic bottle business. If there is a ban on nonreturnable bottles, we maybe preluded from doing so.
+  - Even if there is no ban, it will still dilute our profitability
+    - In short term: Low ROI
+    - In long term: Low EPS
+  - And then use other ideas to support these arguments
+## Degree order
+- Order of importance
+- To clarify a message, we usually have to check if a group is a result of an underlying process or a class grouping
+- Example: a analysis shows how traditional financial focus often leads to misleading prescription:
+  - Invest whenever expected returns exceed capital
+  - Better quantification of risks
+  - Planning and budget are 2 different process
+  - Leadership questions numbers instead of underlying thinkings
+- To restate this
+  - Encourage investment based only on return
+  - Emphasize on risk quantificatino
+  - Separate planning and budgeting
+  - Shift mangement focus to numbers
+- So this order suggests that the ideas come from `a process`
+- To rewrite this now as we know it's from `a process`
+  ```
+  The traditional financial approach to investment evaluation often leads to poor resource allocation because it:
+  - Overemphasizes on uncertanty and risks
+  - Draws management focus to numbers instead of reasoning
+  - Promotes investing whenever expected returns exceed capital while ignoring other factors
+  ```
