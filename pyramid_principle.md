@@ -557,3 +557,20 @@ Q: which one makes most sense?
   - Draws management focus to numbers instead of reasoning
   - Promotes investing whenever expected returns exceed capital while ignoring other factors
   ```
+- Example: Complains:
+  1. Report frequency is inappropriate
+  2. Inventory data are too late
+  3. Inventory data are unreliable
+  4. Inventory data cannot be matched to sales data
+  5. They want elimination of meaningless data
+  6. They want better report formats
+  7. They want exception highlighting
+  8. They want to do fewer calculations manually
+- If we group these problems, we could have 3 groups:
+  1. Bad timing
+  2. Poor data collection
+  3. Poor report writing
+- The question is how to order this group, that depends on the process of how to fix this problem, and the process depends on the question being asked
+  - Why do they hate the data: 1, 3, 2
+  - Why do systems produce useless data: 2, 3, 1
+  - How to improve reporting: 3, 2, 1
