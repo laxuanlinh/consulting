@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="Wa5mq-qUSuVeg8VICRPW">
+    <mxGraphModel dx="1539" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e8incUhMEDLFNFjxi4j3-1" value="TM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e8incUhMEDLFNFjxi4j3-2" target="e8incUhMEDLFNFjxi4j3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-77" value="B.1: consume notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e8incUhMEDLFNFjxi4j3-7">
+          <mxGeometry x="0.0803" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-2" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="425" y="485" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e8incUhMEDLFNFjxi4j3-4" target="e8incUhMEDLFNFjxi4j3-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-82" value="B.4: send postings to update DPD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e8incUhMEDLFNFjxi4j3-78">
+          <mxGeometry x="0.3455" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-4" value="DPD service" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="485" as="sourcePoint" />
+            <mxPoint x="220" y="485" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="465" />
+              <mxPoint x="220" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-81" value="B.3: calculate DPD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e8incUhMEDLFNFjxi4j3-59">
+          <mxGeometry x="-0.0286" relative="1" as="geometry">
+            <mxPoint x="36" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-66" value="DB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="311" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e8incUhMEDLFNFjxi4j3-1" target="e8incUhMEDLFNFjxi4j3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-76" value="A.2: stream interest notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e8incUhMEDLFNFjxi4j3-70">
+          <mxGeometry x="-0.1893" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e8incUhMEDLFNFjxi4j3-1" target="e8incUhMEDLFNFjxi4j3-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="300" />
+              <mxPoint x="510" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-75" value="A.1: accrue daily interest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e8incUhMEDLFNFjxi4j3-73">
+          <mxGeometry x="-0.019" relative="1" as="geometry">
+            <mxPoint x="16" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e8incUhMEDLFNFjxi4j3-4" target="e8incUhMEDLFNFjxi4j3-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8incUhMEDLFNFjxi4j3-80" value="B.2 get oldest overdue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e8incUhMEDLFNFjxi4j3-79">
+          <mxGeometry x="0.6804" y="1" relative="1" as="geometry">
+            <mxPoint x="29" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

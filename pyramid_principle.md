@@ -574,3 +574,36 @@ Q: which one makes most sense?
   - Why do they hate the data: 1, 3, 2
   - Why do systems produce useless data: 2, 3, 1
   - How to improve reporting: 3, 2, 1
+
+# Summarizing Grouped Ideas
+- Ideas at each level summarize the ideas below them
+- Most writers fail because they use interlectually blank, like "3 objects", "2 problems", which only state what's coming rather than summarize
+
+## Avoid interlectually blank insertions
+- Interlectual blanks give no ideas, confuse readers and could make them misunderstand
+- Example: John Wain should write Johnson's biography because of 3 reasons: ...
+- The readers expect the first reason to be the main point and ignore the rest
+- Instead the writer should start with: John Wain should write Johnson's biography because they're similar kinds of people. Then the listeners would understand the main point instead of talking over each other.
+- To create proper grouping summaries, they have to be derived from MECE groupings
+- The summaries can fall into 2 types:
+  - Action statement: tells readers to do something
+  - Situation statement: descibres something
+- In other word, in Inductive groups, the statements need to suggest either:
+  - The result of the actions
+  - The insight from other similar situations
+## State the effect of actions
+- Summarizing actions is hard
+- Summary of actions if always the result of those actions
+- Actions in the same groups don't always relate to each other but they jointly create the same effect
+- Actions look the same, always "we should do..", "we will...", so it's hard to see how they fit together without looking at the effect they create, but then this creates a loop:
+  - Can't judge if the list is complete without looking into the effect
+  - The effect depends on the list of actions being complete
+- There are 3 techniques can help
+  - State each action as specifically as possible before relating them
+  - Find small cause-effect clusters so each group has no more than 5 steps
+  - Derive the effect directly from the actions 
+### Wording specifically
+- To build cause-effect hierarchy, each action group must be MECE
+- The effect above it has to be very specifically stated, "improve profit" or "make better" are not specific.
+- Instead, we need to be specific about the end product, for example "improve profit by 10% by Jan 15"
+- Even if we don't have the numbers, another trick is to imagine what the readers would have at the end of the action
