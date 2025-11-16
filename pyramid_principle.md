@@ -607,3 +607,10 @@ Q: which one makes most sense?
 - The effect above it has to be very specifically stated, "improve profit" or "make better" are not specific.
 - Instead, we need to be specific about the end product, for example "improve profit by 10% by Jan 15"
 - Even if we don't have the numbers, another trick is to imagine what the readers would have at the end of the action
+- Vague step by step actions make it impossible to understand what to do:
+- Example:
+  - Strengthen regional effectiveness -> Assign planning repsonsibility to the regions
+  - Reduce account receivable -> Establish a system for following up overdue accounts
+  - Review management process -> Determine if the management needs to be revised
+  - ...
+- 
